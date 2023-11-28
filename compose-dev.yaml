@@ -6,7 +6,7 @@ services:
     entrypoint:
     - sleep
     - infinity
-    image: node:latest
+    image: node:18-bullseye
     init: true
     volumes:
     - type: bind
